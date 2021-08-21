@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css.css" media="all">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+	<link data-minify="1" rel='stylesheet' id='piizalian-style-css' href='https://demothemedh.b-cdn.net/piizalian/wp-content/cache/min/1/piizalian/wp-content/themes/piizalian/style-7ab3f17b8cce53dfd4fa479615803770.css' media='all'>
+	<title>Home 3 - Piizalian</title>
+</head>
+<body>
+	<header class="p-2" style="background-color: #000000;">
+		<div class="container">
+			<div class="cont">
+				<div class="posMenu">
+					<span class="fontHeader"> <i aria-hidden="true" class="piizalian-icon- piizalian-icon-delivery-2" style="font-size: 18px;"></i> Call and Order:</span>
+					<a href="#" class="link"><b><span>+1 718-904-4450</span></b></a>
+					<li class="dropdown">
+						<a href="" style="color: #FFFFFF; text-decoration:none" id="dropdownLoc" class="fontHeader">New York <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ui class="dropdown-menu" aria-labelledby="dropdownLoc">
+							<a class="dropdown-item menuLoc" href="#">New York</a>
+							<a class="dropdown-item menuLoc" href="#">Los Angeles</a>
+							<a class="dropdown-item menuLoc" href="#">Chicago</a>
+						</ui>
+					</li>
+				</div>
+				<div class="posMenu">
+					<span class="fontHeader"><i aria-hidden="true" class="piizalian-icon- piizalian-icon-location" style="font-size: 18px;"></i> Corso Itali Aa Naples, Az 85022</span> 
+				</div>  
+			</div>
+			<hr style="color: #FFFFFF;">
+			<header class="posMenuHeader">
+				<a href="https://demo.leebrosus.com/piizalian/"> 
+					<img src="imagens/piizalian-logo.svg">
+				</a>
+				<ul class="nav menuCenter">
+					<li><a href="#" class="linkHeader"><span style="color: #D6E664;" id="dropdownHome">Home <i class="fa fa-angle-down" aria-hidden="true"></i></span></i></a>
+						<ui class="dropdown-menu" aria-labelledby="dropdownHome">
+							<a class="dropdown-item menuHeader" href="#">Home 1</a>
+							<a class="dropdown-item menuHeader" href="#">Home 2</a>
+							<a class="dropdown-item menuHeader" href="#">Home 3</a>
+							<a class="dropdown-item menuHeader" href="#">Home 4</a>
+							<a class="dropdown-item menuHeader" href="#">Home 5</a>
+						</ui>
+					</li>
+					<li><a href="#" class="linkHeader"><span>Menu</span></a></li>
+					<li><a href="#" class="linkHeader"><span>About</span></a></li>
+					<li><a href="#" class="linkHeader" id="dropdownShop"><span>Shop <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+						<ui class="dropdown-menu" aria-labelledby="dropdownShop">
+							<a class="dropdown-item menuHeader" href="#">My account</a>
+							<a class="dropdown-item menuHeader" href="#">Cart</a>
+							<a class="dropdown-item menuHeader" href="#">Wishlist</a>
+						</ui>
+					</li>
+					<li><a href="#" class="linkHeader" id="dropdownBlog"><span>Blog <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+						<ui class="dropdown-menu" aria-labelledby="dropdownBlog">
+							<a class="dropdown-item menuHeader" href="#">Blog Strandard</a>
+							<a class="dropdown-item menuHeader" href="#">Blog Grid</a>
+							<a class="dropdown-item menuHeader" href="#">Blog Masonry</a>
+							<a class="dropdown-item menuHeader" href="#">Blog List</a>
+							<a class="dropdown-item menuHeader" href="#">Blog Single</a>
+						</ui>
+					</li>
+					<li><a href="#" class="linkHeader"><span>Contact</span></a></li>
+				</ul>
+				<div class="menuCenter">
+					<a href="#">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-search fontIcons22"></i>
+					</a>
+					<a href="#" onclick="abrirModal()">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-user fontIcons22"></i>
+					</a>
+					<div class="fontIcons22">
+						<div class="site-header-wishlist woosw-check">
+							<a class="header-wishlist" href="#">
+								<i class="piizalian-icon-favourite" style="color: #FFFFFF;"></i>
+								<span class="site-header-wishlist woosw-check count">0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="menuCenter">
+					<a href="#" title="View your shopping cart" class="box">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #000000; font-size:23px; align-self: center;"></i>
+						<span class="font16600">0 items: $0.00</span>
+					</a>
+				</div>
+			</header>
+		</div>
+	</header>
+	<div class="imagem">
+		<div class="ima">
+			<img src="imagens/revslider_h1_bg-1.jpg">
+		</div>
+		<i aria-hidden="true" class="piizalian-icon- piizalian-icon-parten iconImg"></i>
+		<div class="fontImg1">
+			<span>HAPPY HOUR SPECIAL</span>
+		</div>
+		<div class="fontBevan">
+			<span> Share Your</span>
+		</div>
+		<div class="fontBevan2">    
+			<span> Love For Piizalian!</span>
+		</div>
+		<div class="menu3">
+			<a href="#" class="box2">
+				<i aria-hidden="true" class="iconImg2 piizalian-icon- piizalian-icon-cart"></i>
+				<span class="font166002">Order Now</span>
+			</a>
+		</div> 
+	</div>
+	<br></br>
+	<div>
+		<span class="fontChoose">CHOOSE YOUR FLAVOR</span>
+	</div>
+	<br></br>
+	<div>
+		<section class="grid grid-template-columns-1">
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/p1-480x480.jpg">
+					<span class="fonteImagens">FANTASTIC IRON SHOES</span><br>
+					<span class="descricaoImagens">Pizza, Uncategorized</span><br>
+					<span class="fonteImagensBordo">$101.00 – $187.00</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Select options</span>
+					</span>
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/p10-480x480.jpg">
+					<span class="fonteImagens">SLEEK IRON CLOCK</span><br> 
+					<span class="descricaoImagens">Pizza, Uncategorized</span><br> 
+					<span class="fonteImagensBordo">$107.00 – $198.00</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Select options</span>
+					</span>
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/p2-480x480.jpg">
+					<span class="fonteImagens">GORGEOUS SILK PLATE</span><br> 
+					<span class="descricaoImagens">Pizza, Uncategorized</span><br> 
+					<span class="fonteImagensBordo">$100.00 – $194.00</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Select options</span>
+					</span>
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/k3-480x480.jpg">
+					<span class="fonteImagens">INTELLIGENT WOODEN TABLE</span><br> 
+					<span class="descricaoImagens">Kebab, Uncategorized</span><br> 
+					<span class="fonteImagensBordo">$134.04</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Add to cart</span>
+					</span>
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/s1-480x480.jpg">
+					<span class="fonteImagens">RUSTIC MARBLE LAMP</span><br> 
+					<span class="descricaoImagens">Salads, Uncategorized</span><br> 
+					<span class="fonteImagensBordo">$154.45</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Select options</span>
+					</span>
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/p3-480x480.jpg">
+					<span class="fonteImagens">FANTASTIC MARBLE BAG</span><br> 
+					<span class="descricaoImagens">Pizza, Uncategorized</span><br> 
+					<span class="fonteImagensBordo">$104.00 – $198.00</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Add to cart</span>
+					</span>
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/prod201-480x480.png">
+					<span class="fonteImagens">MEDIOCRE ALUMINUM SHIRT</span><br> 
+					<span class="descricaoImagens">Drinks, Uncategorized</span><br>  
+					<span class="fonteImagensBordo">$172.88</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Add to cart</span>
+					</span> 
+				</a>
+			</li>
+			<li style="list-style: none;">
+				<a href="#" class="item">
+					<img src="imagens/prod2010-480x480.png">
+					<span class="fonteImagens">AERODYNAMIC IRON TABLE</span><br> 
+					<span class="descricaoImagens">Drinks, Uncategorized</span><br> 
+					<span class="fonteImagensBordo">$51.11</span>
+					<span class="boxImg2">
+						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+						<span>Add to cart</span>
+					</span>
+				</a>
+			</li>
+		</section>
+	</div>
+	<br></br>
+	<div>
+		<section class="grid2 grid2-template-columns-1">
+			<div class="item2">
+				<div class="container2">
+					<div>
+						<span class="fontItem2">SUPPER, DELICIOUS PIZZA</span><br>
+						<span class="fontItem22">Feel Hunger! Order Your Favouriate Food.</span>
+					</div>
+					<div class="menuImg">
+						<a href="#" class="boxImg">
+							<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+							<span style="color: #ffffff;">Order Now</span>
+						</a>
+					</div> 
+					<img src="imagens/h3_pizza-1.png">
+				</div>
+			</div>
+		</section>
+	</div>
+	<br></br>
+	<div>
+		<span class="fontChoose">GOES GREAT WITH
+		</span>
+	</div>
+	<br></br>
+	<div class="container3">
+		<div class="row"> 
+			<div class="margemImg col order-first">
+				<img src="imagens/h3_pizza-2.png">
+			</div>
+			<div class="col order-last">
+				<span class="fontItem22-">ALWAYS FRESH</span><br> 
+				<span class="fontItem2" style="color: #ffffff">GO AHEAD AND BUILD YOUR OWN PIZZA WE WON’T JUDGE!</span><br> 
+				<span class="fontItem22" style="color: #ffffff">Feel Hunger! Order Your Favouriate Food.</span><br>
+				<a href="#" class="boxImg">
+					<i aria-hidden="true" class="piizalian-icon- piizalian-icon-cart" style="color: #ffffff;"></i>
+					<span style="color: #ffffff;">Order Now</span>
+				</a>
+			</div> 
+		</div>
+	</div>
+</div>
+<br></br>
+<!-- <section class="grid3 grid3-template-columns-1">
+	<li style="list-style: none;" class="container4">
+		<a href="#" class="item">
+			<img src="imagens/s1-480x480.jpg">
+			<span class="fonteImagens">RUSTIC MARBLE LAMP</span><br>
+		</a>
+	</li>
+	<li style="list-style: none;" class="container4">
+		<a href="#" class="item">
+			<img src="imagens/s2-480x480.jpg">
+			<span class="fonteImagens">AWESOME LINEN CAR</span><br> 
+		</a>
+	</li>
+	<li style="list-style: none;" class="container4">
+		<a href="#" class="item">
+			<img src="imagens/s1-480x480.jpg" class="container2">
+			<span class="fonteImagens">SLEEK MARBLE BAG</span><br> 
+		</a>
+	</li>
+	<li style="list-style: none;" class="container4">
+		<a href="#" class="item">
+			<img src="imagens/s4-480x480.jpg">
+			<span class="fonteImagens">AWESOME PLASTIC BAG</span><br> 
+		</a>
+	</li>
+</section> -->
+<!-- MODAL CADASTRO -->
+<div id="modalCadastro" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">CADASTRO DE USUÁRIO</h4>
+			</div>
+			<div class="modal-body">
+				<label>
+					<span class="label">Nome: </span>
+					<input name="nome" type="text">
+				</label>
+				<label>
+					<span class="label">E-mail: </span>
+					<input name="email" type="text">
+				</label>
+				<label>
+					<span class="label">Senha: </span>
+					<input name="senha" type="password">
+				</label>
+				<button type="button" class="btn btn-success">Endereço</button>
+				<br></br>
+				<div class="row">
+					<div class="col-sm-12">
+						<table class="table table-striped table-hover table-bordered">
+							<thead>
+								<tr>
+									<th>Logradouro</th>
+									<th>Núm</th>
+									<th>Bairro</th>
+									<th>CEP</th>
+									<th>Cidade</th>
+									<th>UF</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- FIM MODAL -->
+<!-- MODAL ENDEREÇO -->
+<!-- FIM MODAL -->
+</div>
+</body>
+<script>
+	function abrirModal() {
+		$("#modalCadastro").modal({
+			show: true
+		});
+	}
+</script>
+</html>
