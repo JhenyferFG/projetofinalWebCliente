@@ -228,8 +228,9 @@
 				alert("Campo NOME deve conter apenas letras.");
 				return;
 			}
+			console.log($("#nome").val(), $("#email").val(), $("#assunto").val(), $("#mensagem").val())
 
-			if($("#nome").val() == '' || $("#assunto").val() == '' || $("#email").val() == '' || $("#mensagem").val()){
+			if($("#nome").val() == '' || $("#assunto").val() == '' || $("#email").val() == '' || $("#mensagem").val() == ''){
 				alert("Todos os campos devem ser preenchidos.");
 				return;
 			}
