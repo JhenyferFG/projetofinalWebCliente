@@ -367,12 +367,7 @@
 		});
 
 		function confirmarDados(){
-			var idadeRegex =  /^[0-9]+$/;
 			var nomeRegex = /[0-9]/;
-			if(idadeRegex.test($("#idade").val()) == false && $("#idade").val() != ''){
-				alert("Campo DATA DE NASCIMENTO deve conter apenas números.");
-				return;
-			}
 
 			if(nomeRegex.test($("#nome").val()) == true && $("#nome").val() != ''){
 				alert("Campo NOME deve conter apenas letras.");
