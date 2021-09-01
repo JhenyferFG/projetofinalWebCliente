@@ -13,7 +13,7 @@
 	<link data-minify="1" rel='stylesheet' id='piizalian-style-css' href='https://demothemedh.b-cdn.net/piizalian/wp-content/cache/min/1/piizalian/wp-content/themes/piizalian/style-7ab3f17b8cce53dfd4fa479615803770.css' media='all'>
 	<title>Home 3 - Piizalian</title>
 </head>
-<body>
+<body class="body-menu">
 	<header class="p-2" style="background-color: #000000;">
 		<div class="container">
 			<div class="cont">
@@ -72,7 +72,7 @@
 					<a href="#">
 						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-search fontIcons22"></i>
 					</a>
-					<a href="#">
+					<a href="cadUsU.html">
 						<i aria-hidden="true" class="piizalian-icon- piizalian-icon-user fontIcons22"></i>
 					</a>
 					<div class="fontIcons22">
@@ -340,10 +340,8 @@
 </body>
 <script>
 	$(function(){
-
 		$('#slide img:eq(0)').addClass("ativo").show();
-		setInterval(slide,3500);
-
+		setInterval(slide,4000);
 		function slide(){
 			if($('.ativo').next().length){
 				$('.ativo').fadeOut().removeClass("ativo").next().fadeIn().addClass("ativo");
