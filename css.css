@@ -1,5 +1,5 @@
-body {
-  background-image: url('imagens/background.jpg');;
+.body-menu {
+  background-image: url('imagens/background.jpg');
   background-size: cover;
 /*  background-attachment: local;
 overflow: scroll;*/
@@ -533,7 +533,14 @@ left: 0; }
   position: relative;
   display: flex;
   flex-direction: column;
-  width:300px;
+  width:400px;
+}
+
+.inputbox2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width:400px;
 }
 
 /* Gerais */
@@ -689,6 +696,10 @@ left: 0; }
     padding: 0;
 }
 
+#news-area .container-cad {
+    padding: 30px 0;
+    text-align: center;
+}
 
 #news-area .container {
     padding: 30px 0;
